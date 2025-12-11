@@ -13,7 +13,7 @@ import seaborn as sns #imports seaborn
 import matplotlib.pyplot as plt #imports matplotlib
 
 # Q1. Read in pumpkins.csv
-pumpkins = pd.read_csv("Pumpkins/pumpkins_datasets/pumpkins_06.csv") #reads in and loads allocated pumpkin dataset
+pumpkins = pd.read_csv("pumpkins_06.csv") #reads in and loads allocated pumpkin dataset
 
 print(pumpkins.head()) #checks the top data in the set to see if it has loaded
 
